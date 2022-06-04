@@ -47,21 +47,22 @@ span {
 }
 
 .images {
-    width: 80%;
+    width: 60%;
     height: 85%;
     position: absolute;
     top: 80px;
     right: 20px;
-    left: 400px;
+    left: 600px;
 }
 
 .images img {
-    height: 70%;
+    height: 76%;
     position: absolute;
     left: 50%;
     bottom: 60;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+    width: 100px;
 }
 
 .images:hover .image1 {
@@ -74,6 +75,12 @@ span {
 
 .mi {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.more {
+    text-align: center;
+    color: #f9004d;
+    font-size: x-large;
 }
 
 #achievements {
